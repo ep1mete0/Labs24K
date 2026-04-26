@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Labs 24k"
+                paragraph="Soluciones de inteligencia artificial aplicadas al marketing para optimizar procesos, maximizar resultados y escalar tu negocio de forma sostenible."
                 mb="44px"
               />
 
@@ -35,17 +35,25 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Automatización avanzada de marketing" />
+                    <List text="Ajuste inteligente en tiempo real" />
+                    <List text="Modelos predictivos de conversión" />
+                    <List text="IA propietaria entrenada para tu negocio" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Reportes automáticos y panel ejecutivo" />
+                    <List text="Optimización continua 24/7" />
+                    <List text="Reducción de costos operativos" />
+                    <List text="Escalado automático de campañas" />
                   </div>
                 </div>
+                <p className="text-body-color mt-4 text-base leading-relaxed">
+                  Su enfoque automatizado reduce errores, aumenta la eficiencia
+                  operativa y permite que tu negocio crezca sin límites,
+                  ofreciendo un rendimiento que difícilmente se logra con
+                  métodos tradicionales.
+                </p>
               </div>
             </div>
 

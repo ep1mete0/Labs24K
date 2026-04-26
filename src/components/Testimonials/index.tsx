@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Carolina Méndez",
+    designation: "Directora de Marketing @NovaRetail",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Implementamos la plataforma hace seis meses y el cambio fue inmediato: el equipo publica más rápido, la navegación es clara y nuestros clientes encuentran lo que necesitan sin fricción.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Javier Ortega",
+    designation: "Líder de Producto @Finanzas360",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Lo que más valoramos es la estabilidad. Desde el lanzamiento no hemos tenido caídas y el soporte responde con rapidez cuando surge cualquier duda del equipo.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Sofía Ramírez",
+    designation: "CEO @EstudioVerde",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Necesitábamos una solución profesional para escalar operaciones, y esta herramienta nos dio justo eso: flujos simples, diseño impecable y resultados medibles desde el primer mes.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Nuestros Clientes"
+          paragraph="Empresas de distintos sectores confían en nuestra solución para optimizar su operación diaria, mejorar la experiencia de sus usuarios y crecer con mayor consistencia."
           center
         />
 

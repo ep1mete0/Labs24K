@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Labs 24K"
+        description="En Labs 24K transformamos procesos, negocios y marcas mediante soluciones de inteligencia artificial implementadas de forma real, estratégica y medible. Impulsamos la evolución digital de las empresas con herramientas inteligentes, automatización avanzada y tecnología diseñada a la medida de cada proyecto."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

@@ -26,32 +26,30 @@ const AboutSectionTwo = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+              <div className="mb-10">
+                <h2 className="mb-4 text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                  Metodología de Implementación de IA para Empresas
+                </h2>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  1. Análisis Inicial y Descubrimiento Estratégico
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
+              </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  2. Desarrollo, Integración y Arquitectura Técnica
+                </h3>
+              </div>
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  3. Entrenamiento y Puesta en Producción
+                </h3>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  4. Validación Continua, Ajustes y Estrategia
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
               </div>
             </div>
           </div>

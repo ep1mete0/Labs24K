@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "Cómo reducir el CAC con automatización de marketing basada en IA",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Descubre el enfoque práctico para optimizar campañas, segmentar mejor audiencias y reducir costos de adquisición sin sacrificar volumen de conversiones.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Carolina Méndez",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Directora de Growth",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["marketing", "ia", "growth"],
+    publishDate: "Mar 2026",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Arquitectura de datos para modelos predictivos de conversión",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Una guía para estructurar fuentes de datos, eventos y métricas clave que permitan entrenar modelos robustos y accionables en entornos empresariales.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Javier Ortega",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Lead Data Strategist",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["data", "prediccion", "conversion"],
+    publishDate: "Abr 2026",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Implementación de IA en 90 días: estrategia, ejecución y medición",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Revisa un plan por fases para pasar de la idea a producción con validación continua, ajustes operativos y tableros ejecutivos para toma de decisiones.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Sofía Ramírez",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Consultora Senior en IA",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["estrategia", "implementacion", "empresa"],
+    publishDate: "Abr 2026",
   },
 ];
 export default blogData;

@@ -13,8 +13,8 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Estamos listos para ayudarte"
+            paragraph="Somos una agencia de inteligencia artificial enfocada en convertir los retos operativos de tu empresa en oportunidades de crecimiento."
             center
             mb="80px"
           />
