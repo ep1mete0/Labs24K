@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Labs24K",
+  description: "Desarrollamos sistemas de IA que analizan, automatizan y optimizan funciones clave como marketing, ventas, soporte y administración interna. Nuestro enfoque convierte tus datos en decisiones precisas, reduce tiempos operativos y genera una productividad superior. Mientras la IA gestiona lo repetitivo, tu equipo puede concentrarse en estrategias de crecimiento, innovación y creación de valor real.",
   // other metadata
 };
 
