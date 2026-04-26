@@ -1,6 +1,23 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const parallaxTop = Math.min(scrollY * 0.18, 50);
+  const parallaxBottom = Math.min(scrollY * 0.12, 35);
+
   return (
     <>
       <section
@@ -12,30 +29,33 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Inteligencia Artificial para Empresas
+                  IA Aplicada para Empresas que Exigen Resultados
                 </h1>
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Soluciones de IA diseñadas a la medida para mejorar procesos, agilizar operaciones y elevar el rendimiento empresarial.
+                  Diseñamos e implementamos soluciones de inteligencia artificial para automatizar operaciones, acelerar ventas y escalar tu negocio con control y seguridad.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="/contact"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    Hablar con un experto
+                    Solicitar diagnóstico
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="/#business-intelligence"
                     className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Programar una llamada
+                    Ver soluciones para PYMES
                   </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        <div
+          className="absolute right-0 top-0 z-[-1] opacity-30 transition-transform duration-150 will-change-transform lg:opacity-100"
+          style={{ transform: `translate3d(0, ${parallaxTop}px, 0)` }}
+        >
           <svg
             width="450"
             height="556"
@@ -173,7 +193,10 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        <div
+          className="absolute bottom-0 left-0 z-[-1] opacity-30 transition-transform duration-150 will-change-transform lg:opacity-100"
+          style={{ transform: `translate3d(0, ${-parallaxBottom}px, 0)` }}
+        >
           <svg
             width="364"
             height="201"
